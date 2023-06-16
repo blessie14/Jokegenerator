@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.joke{
+    width: 400px;
+    min-height: 250px;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+h1{
+    position: relative;
+    top: 10px;
+    }
+    
+p{
+position: relative;
+top: 20px;
+}
+
+button{
+    position: relative;
+    color: white;
+    top: 35px;
+    font-size: 20px;
+    background-color: rgb(18, 18, 251);
+    cursor: pointer;  
+    border-color: white;
+    border-radius: 7px;
+
+
+
+    }
+
+button:hover{
+    background-color: rgb(89, 55, 225);
+    }
+
+
+    
+
